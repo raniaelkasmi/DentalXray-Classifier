@@ -113,9 +113,8 @@ DentalXray-Classifier/
 
 ## 👩‍💻 Author
 **Rania El Kasmi**  
-MSc Student — Politecnico di Milano / Exchange at EPFL  
-📧 r.elkasmi@polimi.it  
-📍 Milan, Italy  
+BSc Student — EPFL  
+📧 raniaelkasmi10@gmail.com
 
 ---
 

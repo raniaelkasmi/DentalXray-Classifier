@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Data & models
+data/
+*.h5
+*.ckpt
+*.pb

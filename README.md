@@ -46,19 +46,25 @@ MyDrive/DentalXray-Classifier/data/
 
 ---
 
-## 🚀 Results (example)
-| Metric | Training | Validation |
-|:--|:--:|:--:|
-| Accuracy | 0.95 | 0.87 |
-| Loss | 0.18 | 0.33 |
+## 📊 Results  
 
-*(Values will vary slightly depending on random seed and data split.)*
+### Accuracy and Loss Curves
+| | |
+|:--:|:--:|
+| ![Accuracy](images/accuracy.png) | ![Loss](images/loss.png) |
 
-### 📊 Confusion Matrix  
-Displays per-class performance and confusion patterns.  
+### Confusion Matrix (Validation)
+![Confusion Matrix](images/confusion_matrix.png)
 
-### 🔥 Grad-CAM Visualization  
-Highlights the image regions most influential in the model’s prediction.
+**Interpretation:**  
+- The model correctly classifies *Healthy* and *Caries* most often.  
+- Frequent confusion with “Healthy” suggests class imbalance.  
+- Overall accuracy ≈ **0.39–0.40** — a reasonable baseline for a small dataset.
+
+---
+
+## 🔍 Discussion  
+> “The confusion matrix indicates that the model mostly learns features of healthy structures, which are over-represented. Further training with class weighting and data augmentation would help improve the recognition of rare pathologies such as infection and bone resorption.”
 
 ---
 

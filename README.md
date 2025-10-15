@@ -1,8 +1,6 @@
 # 🦷 DentalXray-Classifier  
-*A deep learning project by Rania El Kasmi (Politecnico di Milano & EPFL)*  
+*A deep learning project by Rania El Kasmi (EPFL)*  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/upload)  
-*(Click the badge above to open the notebook directly in Google Colab)*  
 
 ---
 
